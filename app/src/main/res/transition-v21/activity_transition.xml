@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android"
+    android:transitionOrdering="sequential"
+    android:duration="400"
+    android:startDelay="100">
+    <explode android:interpolator="@android:interpolator/anticipate_overshoot"/>
+    <changeImageTransform android:interpolator="@android:interpolator/accelerate_decelerate"/>
+
+    <targets>
+        <target android:excludeId="@id/app_bar"/>
+    </targets>
+
+</transitionSet>
